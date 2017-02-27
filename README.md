@@ -46,5 +46,8 @@ Totally, we have 39 bodies(links) and 38 DOF for iCub. Regarding the required in
 In order to write a specific "Description File" for your mechanical system, please refer to the software manual [here](). 
 
 ## 5. Run SDFAST
-After preparing the Description File, please copy it in the same directory as you copied the executable file of SDFAST and its KEY File. Simply run the executable file and write the name of Description File, with its extention (.sd), in the opened terminal and press Enter and then confirm the name of output files (including "Dynamic File", "Information File" and "Simplified Analysis File"). If there is no error, three output files should be generated successfully.    
+After preparing the Description File, please copy it in the same directory as you copied the executable file of SDFAST and its KEY File. Simply run the executable file and write the name of Description File, with its extention (.sd), in the opened terminal and press Enter and then confirm the name of output files (including "Dynamic File", "Information File" and "Simplified Analysis File"). If there is no error, three output files should be generated successfully.   
+
+
+
 
