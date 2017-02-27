@@ -8,11 +8,11 @@ You will need a windows xp 32 bit machine to run SDFAST. So, first install a vir
 
 ## 3. Description File
 The user-written System Description File is used by SD/FAST to generate the dynamic equations of motion. In the case of iCub, "Waist" is selected as the "root link". Then, six different series of links have been defined as follows:
-  * Waist to chest
-  * Chest to left end effector (left palm)
-  * Chest to right end effector (right palm)
-  * Chest to left foot
-  * Chest to right foot 
-  * Chest to head
+  * Root to chest (4 links)
+  * Chest to left end effector (left palm) (8 links)
+  * Chest to right end effector (right palm) (8 links)
+  * Chest to left foot (8 links)
+  * Chest to right foot (8 links)
+  * Chest to head (3 links)
  
 In order to write a specific "Description File" for your mechanical system, please refer to the software manual (here). Following  
