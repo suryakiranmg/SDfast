@@ -41,9 +41,9 @@ In the case of iCub, "Waist" is selected as the "Root Link". Then, six different
   * Chest to right foot (8 links)
   * Chest to head (3 links)
  
-Totally, we have 39 bodies(links) and 38 DOF for iCub. Regarding the required information, sdf file of icub is used to get the mass, moment of inertia matrix and joint type. Also, in order to calculate "bodytojoint" and "Inbtojoint" we have used Gazebo functions to get the position of joint and links center of gravity in world referenc frame([see this plugin](https://github.com/epfl-lasa/Icub_Gazebo/tree/master/plugins/sdfastcomputation)). To be more clear about the calculation, please see this [file](). The complete Description File of iCub, named "sdfast_model.sd" is provided [here](). 
+Totally, we have 39 bodies(links) and 38 DOF for iCub. Regarding the required information, sdf file of icub is used to get the mass, moment of inertia matrix and joint type. Also, in order to calculate "bodytojoint" and "Inbtojoint" we have used Gazebo functions to get the position of joint and links center of gravity in world referenc frame([see this plugin](https://github.com/epfl-lasa/Icub_Gazebo/tree/master/plugins/sdfastcomputation)). To be more clear about the calculation, please see this [file](https://github.com/epfl-lasa/SDfast/blob/master/iCube_Tree.ods). The complete Description File of iCub, named "sdfast_model.sd" is provided [here](https://github.com/epfl-lasa/SDfast/blob/master/sdfast_model.sd). 
 
-In order to write a specific "Description File" for your mechanical system, please refer to the software manual [here](). 
+In order to write a specific "Description File" for your mechanical system, please refer to the software manual [here](https://github.com/epfl-lasa/SDfast/blob/master/sdman.pdf). 
 
 ## 5. Run SDFAST
 After preparing the Description File, please copy it in the same directory as you copied the executable file of SDFAST and its KEY File. Simply run the executable file and write the name of Description File, with its extention (.sd), in the opened terminal and press Enter and then confirm the name of output files (including "Dynamic File", "Information File" and "Simplified Analysis File"). If there is no error, three output files should be generated successfully.   
