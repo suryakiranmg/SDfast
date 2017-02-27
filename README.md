@@ -48,6 +48,9 @@ In order to write a specific "Description File" for your mechanical system, plea
 ## 5. Run SDFAST
 After preparing the Description File, please copy it in the same directory as you copied the executable file of SDFAST and its KEY File. Simply run the executable file and write the name of Description File, with its extention (.sd), in the opened terminal and press Enter and then confirm the name of output files (including "Dynamic File", "Information File" and "Simplified Analysis File"). If there is no error, three output files should be generated successfully.   
 
+"Information File" specifiesthe parameters of the system including number of DOF, number of joints, number of bodies, coordinates of system and etc. Two other generated c codes include symbolic dynamic and different routines for analysis of the system.
+
+
 
 
 
