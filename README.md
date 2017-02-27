@@ -41,7 +41,7 @@ In the case of iCub, "Waist" is selected as the "Root Link". Then, six different
   * Chest to right foot (8 links)
   * Chest to head (3 links)
  
-Totally, we have 39 bodies(links) and 38 DOF for iCub. Regarding the required information, sdf file of icub is used to get the mass, moment of inertia matrix and joint type. Also, we have used Gazebo functions to get the position of joint and links center of gravity in world referenc frame([see this plugin](https://github.com/epfl-lasa/Icub_Gazebo/tree/master/plugins/sdfastcomputation)). The complete Description File of iCub, named "sdfast_model.sd" is provided [here](). 
+Totally, we have 39 bodies(links) and 38 DOF for iCub. Regarding the required information, sdf file of icub is used to get the mass, moment of inertia matrix and joint type. Also, in order to calculate "bodytojoint" and "Inbtojoint" we have used Gazebo functions to get the position of joint and links center of gravity in world referenc frame([see this plugin](https://github.com/epfl-lasa/Icub_Gazebo/tree/master/plugins/sdfastcomputation)). To be more clear about the calculation, please see this [file](). The complete Description File of iCub, named "sdfast_model.sd" is provided [here](). 
 
 In order to write a specific "Description File" for your mechanical system, please refer to the software manual [here](). 
 
